@@ -1,4 +1,4 @@
-# webmaking
+# Webmaking
 You name it, we make it.
 
 # Website Maker
@@ -17,11 +17,6 @@ Welcome to Website Maker, your go-to solution for custom website development. Yo
   - Retro 90s
   - Modern
   - Wild West
-
-## Demo
-
-![Theme Button](themes.png)
-
 
 
 ## Usage
