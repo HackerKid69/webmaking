@@ -27,6 +27,6 @@ Welcome to Website Maker, your go-to solution for custom website development. Yo
 
 ## Contact
 
-- Email: [tobias@debian](mailto:tobias@debian)
+- Email: [REMOVED FOR SECURITY REASONS]
 - Phone: (123) 456-7890
 - Address: 123 Main Street, Anytown, USA
