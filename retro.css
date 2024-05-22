@@ -1,0 +1,98 @@
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #ffcc00;
+	color: #000;
+}
+
+.header {
+	background-color: #0066cc;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	font-family: "Courier New", monospace;
+	position: relative;
+}
+
+.header h1 {
+	margin: 0;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #0066cc;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: #ffcc00;
+	color: black;
+}
+
+.container {
+	padding: 20px;
+}
+
+.services, .portfolio, .contact {
+	margin-bottom: 20px;
+}
+
+.footer {
+	background-color: #0066cc;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+#theme-button {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.theme-panel {
+	position: fixed;
+	top: 0;
+	right: -250px;
+	width: 250px;
+	height: 100%;
+	background-color: #fff;
+	box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+	padding: 20px;
+	transition: right 0.3s;
+}
+
+.theme-panel h3 {
+	margin-top: 0;
+}
+
+.theme-panel button {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: none;
+	background-color: #0066cc;
+	color: #fff;
+	cursor: pointer;
+}
+
+.theme-panel button:hover {
+	background-color: #555;
+}
+
