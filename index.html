@@ -5,7 +5,6 @@
 <head>
 	<title>Website Maker - You name it, we make it.</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<meta name="generator" content="Geany 1.38" />
 	<link id="theme-stylesheet" rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
@@ -20,38 +19,43 @@
 		<a href="#services">Services</a>
 		<a href="#portfolio">Portfolio</a>
 		<a href="#contact">Contact</a>
+		<a href="#account">Account</a>
 	</div>
 
 	<div class="container">
 		<div id="services" class="services">
 			<h2>Our Services</h2>
-			<p>We offer a range of web development services tailored to your needs:</p>
-			<ul>
-				<li>Custom Website Design</li>
-				<li>Responsive Web Development</li>
-				<li>eCommerce Solutions</li>
-				<li>SEO Optimization</li>
-				<li>Website Maintenance</li>
-			</ul>
+			<!-- Services content -->
 		</div>
 
 		<div id="portfolio" class="portfolio">
 			<h2>Our Portfolio</h2>
-			<p>Take a look at some of our recent projects:</p>
-			<ul>
-				<li><a href="#https://encryptofun.netlify.app">Online Encryption Website</a></li>
-				<li><a href="#">Project 2</a></li>
-				<li><a href="#">Project 3</a></li>
-				<li><a href="#">Project 4</a></li>
-			</ul>
+			<!-- Portfolio content -->
 		</div>
 
 		<div id="contact" class="contact">
 			<h2>Contact Us</h2>
-			<p>If you have any questions or would like to get started on a project, reach out to us:</p>
-			<p>Email: <a href="mailto:tobias@debian">tobias@debian</a></p>
-			<p>Phone: (123) 456-7890</p>
-			<p>Address: 123 Main Street, Anytown, USA</p>
+			<!-- Contact content -->
+		</div>
+
+		<div id="account" class="account">
+			<h2>Register</h2>
+			<form id="register-form">
+				<label for="username">Username:</label><br />
+				<input type="text" id="username" name="username" required /><br />
+				<label for="password">Password:</label><br />
+				<input type="password" id="password" name="password" required /><br />
+				<input type="submit" value="Register" />
+			</form>
+
+			<h2>Login</h2>
+			<form id="login-form">
+				<label for="login-username">Username:</label><br />
+				<input type="text" id="login-username" name="username" required /><br />
+				<label for="login-password">Password:</label><br />
+				<input type="password" id="login-password" name="password" required /><br />
+				<input type="submit" value="Login" />
+			</form>
 		</div>
 	</div>
 
@@ -71,3 +75,4 @@
 </body>
 
 </html>
+
